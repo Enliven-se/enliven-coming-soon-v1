@@ -2,9 +2,11 @@
 
 }
 .logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
+  margin: 0;
+  @include position(absolute, 50% 0 0 0);
+}
 
-  }
+#logo {
+  width: 100%;
+  margin-top: -50%;
 }

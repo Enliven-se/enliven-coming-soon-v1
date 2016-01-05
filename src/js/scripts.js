@@ -3,7 +3,13 @@
   'use strict';
 
   $(function () {
-    // FastShell
+    $( '#background' ).YTPlayer();
+
+    if (!Modernizr.svg) {
+      var $logo = $("#logo");
+      $logo.attr("src", $logo.attr("src").replace(/svg$/, 'png'));
+    }
+
   });
 
 })(jQuery, window, document);
