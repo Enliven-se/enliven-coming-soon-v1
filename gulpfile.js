@@ -69,7 +69,7 @@ gulp.task('bs-reload', function () {
 gulp.task('svg', function () {
     gulp.src('src/svg/*.svg')
         .pipe(gulp.dest('dist/assets/img'))
-        .pipe(svg2png(0.5))
+        .pipe(svg2png(1.0))
         .pipe(gulp.dest('dist/assets/img'));
 });
 
