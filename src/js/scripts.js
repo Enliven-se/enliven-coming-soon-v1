@@ -3,9 +3,9 @@
   'use strict';
 
   $(function () {
-    if ( ! Modernizr.touch ) {
-      $( '#background' ).YTPlayer();
-    }
+//    if ( ! Modernizr.touch ) {
+//      $( '#background' ).YTPlayer();
+//    }
 
     if ( ! Modernizr.svg ) {
       var $logo = $("#logo");
