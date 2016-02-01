@@ -6,6 +6,9 @@
 .element-hidden {
   display: none !important;
 }
+ .text-nowrap {
+   white-space: nowrap;
+ }
 .footer {
   position: absolute;
   bottom: 30px;
