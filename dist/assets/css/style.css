@@ -392,6 +392,9 @@ th {
 .nav ul {
   list-style: none; }
 
+#background {
+  background-image: url(../img/bg-lynch.jpg); }
+
 @font-face {
   font-family: 'Font-Name';
   src: url("../fonts/font-name.eot");
